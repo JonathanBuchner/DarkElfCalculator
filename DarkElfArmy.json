@@ -1,0 +1,139 @@
+[
+  {
+    "Name": "Dark Elf Warriors",
+    "Description": "",
+    "Special Rules": ["Close Order", "Elven Reflexes", "Hatred (High Elves)", "Martial Prowess"],
+    "Equipment": ["Hand weapon", "Light armour", "Shield"],
+    "Options": [
+      {"Name": "Lordling", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Standard bearer", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Musician", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Thrusting spears", "Points": 1, "Cost Basis": "Per model", "Scope": "Entire unit"},
+      {"Name": "Veteran", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points"},
+      {"Name": "Magic standard", "Points": -1, "Maximum Points": 50, "Restriction": "0-1 unit per 1,000 army points; same allowance as Veteran"}
+    ],
+    "Composition": "Core",
+    "Points": 8,
+    "Command Cost": -1,
+    "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "L": 8,
+    "Troop Type": "Regular infantry",
+    "Base Size": "25 x 25 mm",
+    "Unit Size": "5+",
+    "Mounts": [],
+    "Champion": {"Name": "Lordling", "Command Cost": 5, "A": 2}
+  },
+  {
+    "Name": "Repeater Crossbowmen",
+    "Description": "",
+    "Special Rules": ["Close Order", "Elven Reflexes", "Hatred (High Elves)", "Martial Prowess"],
+    "Equipment": ["Hand weapon", "Repeater crossbow", "Light armour"],
+    "Options": [
+      {"Name": "Lordling", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Standard bearer", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Musician", "Points": 5, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Shields", "Points": 1, "Cost Basis": "Per model", "Scope": "Entire unit"},
+      {"Name": "Veteran", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points"},
+      {"Name": "Magic standard", "Points": -1, "Maximum Points": 50, "Restriction": "0-1 unit per 1,000 army points; same allowance as Veteran"}
+    ],
+    "Composition": "Core",
+    "Points": 10,
+    "Command Cost": -1,
+    "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "L": 8,
+    "Troop Type": "Regular infantry",
+    "Base Size": "25 x 25 mm",
+    "Unit Size": "5+",
+    "Mounts": [],
+    "Champion": {"Name": "Lordling", "Command Cost": 5, "BS": 5}
+  },
+  {
+    "Name": "Black Ark Corsairs",
+    "Description": "",
+    "Special Rules": ["Elven Reflexes", "Hatred (High Elves)", "Move through Cover", "Open Order", "Sea Dragon Cloak", "Vanguard"],
+    "Equipment": ["Hand weapon", "Light armour"],
+    "Options": [
+      {"Name": "Additional hand weapons", "Points": 0, "Cost Basis": "Per model", "Scope": "Entire unit", "Choice Group": "Mandatory equipment", "Required Choices": 1},
+      {"Name": "Repeater handbows", "Points": 0, "Cost Basis": "Per model", "Scope": "Entire unit", "Choice Group": "Mandatory equipment", "Required Choices": 1},
+      {"Name": "Reaver", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Standard bearer", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Musician", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Magic standard", "Points": -1, "Maximum Points": 50},
+      {"Name": "Veteran", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points"},
+      {"Name": "Ambushers", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points; same allowance as Veteran"}
+    ],
+    "Composition": "Core",
+    "Points": 11,
+    "Command Cost": -1,
+    "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "L": 8,
+    "Troop Type": "Regular infantry",
+    "Base Size": "25 x 25 mm",
+    "Unit Size": "5+",
+    "Mounts": [],
+    "Champion": {
+      "Name": "Reaver",
+      "Command Cost": 6,
+      "A": 2,
+      "Options": [{"Name": "Magic items", "Points": -1, "Maximum Points": 25}]
+    }
+  },
+  {
+    "Name": "Witch Elves",
+    "Description": "",
+    "Special Rules": ["Close Order", "Frenzy", "Hatred (High Elves)", "Horde", "Loner", "Murderous", "Poisoned Attacks", "Strike First", "Warband"],
+    "Equipment": ["Two hand weapons"],
+    "Options": [
+      {"Name": "Hag", "Points": 7, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Standard bearer", "Points": 7, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Musician", "Points": 7, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Magic standard", "Points": -1, "Maximum Points": 50}
+    ],
+    "Composition": "Core",
+    "Points": 11,
+    "Command Cost": -1,
+    "M": 5, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 5, "A": 1, "L": 8,
+    "Troop Type": "Regular infantry",
+    "Base Size": "25 x 25 mm",
+    "Unit Size": "5+",
+    "Mounts": [],
+    "Champion": {"Name": "Hag", "Command Cost": 7, "A": 2}
+  },
+  {
+    "Name": "Dark Riders",
+    "Description": "",
+    "Special Rules": ["Elven Reflexes", "Fast Cavalry", "Hatred (High Elves)", "Open Order", "Skirmishers", "Swiftstride"],
+    "Equipment": ["Hand weapon", "Cavalry spear", "Light armour"],
+    "Options": [
+      {"Name": "Repeater crossbows", "Points": 2, "Cost Basis": "Per model", "Scope": "Entire unit"},
+      {"Name": "Shields", "Points": 1, "Cost Basis": "Per model", "Scope": "Entire unit"},
+      {"Name": "Herald", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Standard bearer", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Musician", "Points": 6, "Cost Basis": "Per unit", "Maximum": 1},
+      {"Name": "Fire & Flee", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points"},
+      {"Name": "Scouts", "Points": 1, "Cost Basis": "Per model", "Restriction": "0-1 unit per 1,000 army points; same allowance as Fire & Flee"}
+    ],
+    "Composition": "Core",
+    "Points": 16,
+    "Command Cost": -1,
+    "M": -1, "WS": 4, "BS": 4, "S": 3, "T": 3, "W": 1, "I": 4, "A": 1, "L": 8,
+    "Troop Type": "Light cavalry",
+    "Base Size": "30 x 60 mm",
+    "Unit Size": "5+",
+    "Mounts": ["Dark Steed"],
+    "Champion": {"Name": "Herald", "Command Cost": 6, "A": 2}
+  },
+  {
+    "Name": "Dark Steed",
+    "Description": "",
+    "Special Rules": ["Fast Cavalry", "Swiftstride"],
+    "Equipment": ["Hooves (counts as a hand weapon)"],
+    "Options": [],
+    "Composition": "Mount",
+    "Points": -1,
+    "Command Cost": -1,
+    "M": 9, "WS": 3, "BS": -1, "S": 3, "T": -1, "W": -1, "I": 4, "A": 1, "L": -1,
+    "Troop Type": "Light cavalry",
+    "Base Size": "30 x 60 mm",
+    "Unit Size": "1",
+    "Mounts": [],
+    "Champion": {}
+  }
+]

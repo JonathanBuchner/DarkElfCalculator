@@ -1,0 +1,14 @@
+{
+  "name": "tow-dark-elf-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite src --port 3000 --strictPort",
+    "build": "vite build src --outDir ../dist",
+    "preview": "vite preview src --outDir ../dist --port 3000 --strictPort"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
